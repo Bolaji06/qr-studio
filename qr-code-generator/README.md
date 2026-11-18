@@ -1,6 +1,12 @@
-# QR Studio — QR Code Generator
+# QR Studio — Open-Source QR Code Generator
 
-A modern, client-side QR Code Generator web application built with Vite, React, TypeScript, Tailwind CSS, `qr-code-styling`, and `jspdf`.
+A modern, 100% free, client-side QR Code Generator web application built with Vite, React, TypeScript, Tailwind CSS, `qr-code-styling`, and `jspdf`.
+
+## Why This Exists
+
+This project was inspired by a simple frustration: looking all over the internet to generate a free QR code, only to find tools locked behind paywalls, sign-up walls, watermarks, or artificial scan limits.
+
+Generating a QR code should be **freaking free**—it's just a QR code. So QR Studio was built as an open-source, privacy-first alternative that runs entirely in your browser with no account, no backend, and no paywalls.
 
 ## Features
 
@@ -42,3 +48,10 @@ npm run dev
 - `npm run preview` — Preview the production build locally
 - `npm test` — Run Vitest unit tests for QR encoding, validation, and storage
 - `npm run lint` — Run `oxlint`
+
+## Contributing & Feedback
+
+QR Studio is an **open-source project**, and contributions, feedback, and ideas are very welcome!
+
+- **Found a bug or have a feature idea?** [Open an issue](https://github.com/Bolaji06/qr-studio/issues) to report bugs, suggest improvements, or help shape the direction and growth of the project.
+- **Want to contribute code?** Fork the repository, create a feature branch, and open a pull request.
