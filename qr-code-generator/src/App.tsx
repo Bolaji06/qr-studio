@@ -4,7 +4,9 @@ import { Dashboard } from './pages/Dashboard';
 import { Generator } from './pages/Generator';
 import { Home } from './pages/Home';
 import { NotFound } from './pages/NotFound';
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 export function App() {
   return (
